@@ -149,7 +149,7 @@ void mapWorkspacesToMonitors()
     }
 }
 
-void refreshMapping(void*, SCallbackInfo&, std::any)
+void refreshMapping(void*, std::any)
 {
     mapWorkspacesToMonitors();
 }
